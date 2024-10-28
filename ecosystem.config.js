@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
-    name: 'test',
+    name: 'test-pm2',
     script: 'yarn',
-    args: 'start'
+    args: 'start -p 3000'
   }]
 };
